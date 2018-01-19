@@ -1,5 +1,5 @@
 # Example Code and Data for Big Data Classification and Regression Using Augmented Trees
-This directory contains the code and data files needed to illustrate regression using augmented trees on a big dataset. The datafile for this example is "jan_feb_pp_data.csv". It is recomended that you create a directory on your computer to run these examples or clone this repository.
+This directory contains the code and data files needed to illustrate regression using augmented trees on a big dataset. The datafile for this example is "jan_feb_pp_data.csv". This is data associated with the airline delay regression task. It is recomended that you create a directory on your computer to run these examples or clone this repository.
 
 ---
 # Python Package Pre-requisites

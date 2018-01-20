@@ -17,9 +17,9 @@ To run the code in this directory you will need to install the following package
 4. ` from DTS_AD import *`
 5. The next line executes the tree based segmentation algorithm with a leaf size of 1000
 6. `tc = run_algorithms(1000, False)`
-7. On a laptop with 16 GB of RAM, the algorithm took about 90 minutes to complete. Your mileage may vary. Note the accuracy of the test set is part of the output. You will observe a lot of warning messages about a deprecated method from the GPy module. 
+7. On a laptop with 16 GB of RAM, the algorithm took about 90 minutes to complete. One of the algorithms considered is GP regression. The solution for GP regression involves computing a matrix inverse - an expensive computation. Your mileage may vary. Note the accuracy of the test set is part of the output. You will observe a lot of warning messages about a deprecated method from the GPy module. 
 8. To see how gradient boosted trees performs on this dataset, run the following:
-9.`fit_xgb(True)`
+9. `fit_xgb(True)`
 10. You should see the accuracy as part of the logger output.
 11. Similarly, to see how random forests (takes a longer time than the gbt example) performs on this dataset, run the following:
 12. `fit_rf(True)`
